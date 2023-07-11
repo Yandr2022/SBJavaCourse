@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3c37d35-8da4-4fd7-b6a6-01333cace7bf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson2_CodeExample/RoadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson2_CodeExample/RoadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson2_CodeExample/core/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson2_CodeExample/core/Camera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson2_CodeExample/core/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson2_CodeExample/core/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson3_Variables/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson3_Variables/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson4_Boolean_ComparisonAndConditionalOperators/homeWork/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson4_Boolean_ComparisonAndConditionalOperators/homeWork/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson4_Boolean_ComparisonAndConditionalOperators/CoffeMachineExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson4_Boolean_ComparisonAndConditionalOperators/CoffeMachineExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson4_Boolean_ComparisonAndConditionalOperators/myVariante/CoffeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson4_Boolean_ComparisonAndConditionalOperators/myVariante/CoffeMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson4_Boolean_ComparisonAndConditionalOperators/myVariante/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson4_Boolean_ComparisonAndConditionalOperators/myVariante/Drink.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,15 +34,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Юлия/SBJavaCourse/src/Part1/module2_LanguageSyntax/lesson4_Boolean_ComparisonAndConditionalOperators/myVariante",
-    "settings.editor.selected.configurable": "configurable.group.tools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Юлия/SBJavaCourse/src/Part1/module2_LanguageSyntax/lesson4_Boolean_ComparisonAndConditionalOperators/myVariante&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Юлия\SBJavaCourse\src\Part1\module2_LanguageSyntax\lesson4_Boolean_ComparisonAndConditionalOperators\myVariante" />
@@ -54,7 +51,7 @@
       <recent name="Part1.module2_LanguageSyntax.lesson4_Boolean_ComparisonAndConditionalOperators" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CoffeMachineExample">
+  <component name="RunManager" selected="Application.Task2">
     <configuration name="CoffeMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Part1.module2_LanguageSyntax.lesson4_Boolean_ComparisonAndConditionalOperators.myVariante.CoffeMachine" />
       <module name="SBJavaCourse" />
@@ -81,19 +78,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part1.module1_Introduction.lesson6.HomeWork" />
-      <module name="SBJavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Part1.module1_Introduction.lesson6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Part1.module2_LanguageSyntax.lesson3_Variables.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Part1.module2_LanguageSyntax.lesson3_Variables.Demo" />
       <module name="SBJavaCourse" />
@@ -107,12 +91,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoadController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part1.module2_LanguageSyntax.lesson2_CodeExample.RoadController" />
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part1.module2_LanguageSyntax.lesson4_Boolean_ComparisonAndConditionalOperators.homeWork.Task1" />
       <module name="SBJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part1.module2_LanguageSyntax.lesson2_CodeExample.*" />
+          <option name="PATTERN" value="Part1.module2_LanguageSyntax.lesson4_Boolean_ComparisonAndConditionalOperators.homeWork.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part1.module2_LanguageSyntax.lesson4_Boolean_ComparisonAndConditionalOperators.homeWork.Task2" />
+      <module name="SBJavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Part1.module2_LanguageSyntax.lesson4_Boolean_ComparisonAndConditionalOperators.homeWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.Task1" />
         <item itemvalue="Application.CoffeMachineExample" />
         <item itemvalue="Application.CoffeMachine" />
         <item itemvalue="Application.Part1.module2_LanguageSyntax.lesson3_Variables.Demo" />
-        <item itemvalue="Application.RoadController" />
-        <item itemvalue="Application.HomeWork" />
       </list>
     </recent_temporary>
   </component>
@@ -146,11 +143,27 @@
       <option name="project" value="LOCAL" />
       <updated>1689082050413</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="P1 - module2: example of Code">
+      <created>1689082099735</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689082099735</updated>
+    </task>
+    <task id="LOCAL-00003" summary="P1 - module2: variables">
+      <created>1689082141848</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689082141848</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="P1 - module1: introduction" />
-    <option name="LAST_COMMIT_MESSAGE" value="P1 - module1: introduction" />
+    <MESSAGE value="P1 - module2: example of Code" />
+    <MESSAGE value="P1 - module2: variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="P1 - module2: variables" />
   </component>
 </project>

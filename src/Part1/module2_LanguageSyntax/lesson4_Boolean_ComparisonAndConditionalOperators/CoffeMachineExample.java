@@ -29,14 +29,12 @@ public class CoffeMachineExample {
             canBuyAnything = true;
         }
 
-        if (moneyAmount >= waterPrice ) {
+        if (moneyAmount >= waterPrice) {
             System.out.println("You can buy water");
             canBuyAnything = true;
         }
 
-            System.out.println(canBuyAnything?"Choose your drink":"You can not buy anything");
-
-
+        System.out.println(canBuyAnything ? "Choose your drink" : "You can not buy anything");
 
     }
 
