@@ -1,64 +1,43 @@
 package Part1.module2_LanguageSyntax.lesson4_Boolean_ComparisonAndConditionalOperators;
 
-import java.util.Arrays;
 
-import java.util.Scanner;
-
-
-public class CoffeMachine {
-
-    static int milkAmount = 1;
+public class CoffeMachineExample {
 
     public static void main(String[] args) {
+        int moneyAmount = 100;
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("How much money do you have?");
-        int moneyAmount = scanner.nextInt();
+        int cappuccinoPrice = 180;
+        int lattePrice = 120;
+        int espressoPrice = 80;
+        int waterPrice = 20;
 
-        Drink[] drinks = {new Drink("latte", 120,3), new Drink("espresso", 80,0)
-                , new Drink("raf", 220,2), new Drink("cappuccino", 180,2)
-                , new Drink("cacao", 100,2), new Drink("water", 20,0)
-                , new Drink("americano", 110,1)};
-        Arrays.sort(drinks);
+        boolean isMilkEnough = true;
+        boolean canBuyAnything = false;
 
-        System.out.println("List of available drinks:");
-
-        Drink[] availableDrinks = getAvailableDrinks(drinks, moneyAmount);
-        if (availableDrinks.length == 0) {
-            System.out.println("No drinks available");
-        } else {
-            for (Drink d : availableDrinks) {
-                if(d.getMilkContains()<=milkAmount) {
-                    System.out.printf("%-15s\t%s\n", d.getName(), d.getPrice());
-                }
-            }
+        if (moneyAmount >= cappuccinoPrice && isMilkEnough) {
+            System.out.println("You can buy cappuccino");
+            canBuyAnything = true;
         }
 
-    }
-
-    private static int definePriceLimit(Drink[] drinks, int money) {
-        int limit = -1;
-        for (int i = 0; i < drinks.length; i++) {
-            if (money >= drinks[i].getPrice()) {
-                limit = i;
-                break;
-            }
+        if (moneyAmount >= lattePrice && isMilkEnough) {
+            System.out.println("You can buy latte");
+            canBuyAnything = true;
         }
-        return limit;
-    }
 
-    static Drink[] getAvailableDrinks(Drink[] drinks, int money) {
-        int start = definePriceLimit(drinks, money);
-        Drink[] availableDrinks;
-        if (start >= 0) {
-            availableDrinks = new Drink[drinks.length - start];
-            for (int i = 0; i < availableDrinks.length; i++) {
-                availableDrinks[i] = drinks[start + i];
-            }
-        } else {
-            availableDrinks = new Drink[0];
+        if (moneyAmount >= espressoPrice) {
+            System.out.println("You can buy espresso");
+            canBuyAnything = true;
         }
-        return availableDrinks;
+
+        if (moneyAmount >= waterPrice ) {
+            System.out.println("You can buy water");
+            canBuyAnything = true;
+        }
+
+            System.out.println(canBuyAnything?"Choose your drink":"You can not buy anything");
+
+
+
     }
 
 

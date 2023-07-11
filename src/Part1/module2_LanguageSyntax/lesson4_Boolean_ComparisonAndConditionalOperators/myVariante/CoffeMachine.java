@@ -1,7 +1,6 @@
-package Part1.module2_LanguageSyntax.lesson4_Boolean_ComparisonAndConditionalOperators;
+package Part1.module2_LanguageSyntax.lesson4_Boolean_ComparisonAndConditionalOperators.myVariante;
 
 import java.util.Arrays;
-
 import java.util.Scanner;
 
 

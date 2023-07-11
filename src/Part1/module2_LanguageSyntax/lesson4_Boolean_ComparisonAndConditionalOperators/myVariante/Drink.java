@@ -1,4 +1,4 @@
-package Part1.module2_LanguageSyntax.lesson4_Boolean_ComparisonAndConditionalOperators;
+package Part1.module2_LanguageSyntax.lesson4_Boolean_ComparisonAndConditionalOperators.myVariante;
 
 public class Drink implements Comparable<Drink> {
     private String name;
