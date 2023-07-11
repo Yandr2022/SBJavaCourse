@@ -5,22 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3c37d35-8da4-4fd7-b6a6-01333cace7bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SBJavaCourse.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part1/module1_Introduction/lesson5/RoadCamera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part1/module1_Introduction/lesson6/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part1/module1_Introduction/lesson6/HomeWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson2_CodeExample/RoadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson2_CodeExample/core/Camera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson2_CodeExample/core/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson3_Variables/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson4_Boolean_ComparisonAndConditionalOperators/CoffeMachineExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson4_Boolean_ComparisonAndConditionalOperators/myVariante/CoffeMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson4_Boolean_ComparisonAndConditionalOperators/myVariante/Drink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson2_CodeExample/RoadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson2_CodeExample/RoadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson2_CodeExample/core/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson2_CodeExample/core/Camera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson2_CodeExample/core/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson2_CodeExample/core/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson3_Variables/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson3_Variables/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson4_Boolean_ComparisonAndConditionalOperators/CoffeMachineExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson4_Boolean_ComparisonAndConditionalOperators/CoffeMachineExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson4_Boolean_ComparisonAndConditionalOperators/myVariante/CoffeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson4_Boolean_ComparisonAndConditionalOperators/myVariante/CoffeMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson4_Boolean_ComparisonAndConditionalOperators/myVariante/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson4_Boolean_ComparisonAndConditionalOperators/myVariante/Drink.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +41,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/Юлия/SBJavaCourse/src/Part1/module2_LanguageSyntax/lesson4_Boolean_ComparisonAndConditionalOperators/myVariante",
     "settings.editor.selected.configurable": "configurable.group.tools"
   }
@@ -147,6 +139,18 @@
       <option name="presentableId" value="Default" />
       <updated>1688975672346</updated>
     </task>
+    <task id="LOCAL-00001" summary="P1 - module1: introduction">
+      <created>1689082050413</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689082050413</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="P1 - module1: introduction" />
+    <option name="LAST_COMMIT_MESSAGE" value="P1 - module1: introduction" />
   </component>
 </project>
