@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3c37d35-8da4-4fd7-b6a6-01333cace7bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson5_Loops/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson5_Loops/WhileExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson5_Loops/homeWork/Task1.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson6/homeWork/Task1/RoadController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson6/homeWork/Task1/core/Camera.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Part1/module2_LanguageSyntax/lesson6/homeWork/Task1/core/Car.java" afterDir="false" />
@@ -56,13 +53,26 @@
       <recent name="Part1.module2_LanguageSyntax.lesson4_Boolean_ComparisonAndConditionalOperators" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RoadController">
+  <component name="RunManager" selected="Application.IncomeCalculator">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Part1.module2_LanguageSyntax.lesson5_Loops.Demo" />
       <module name="SBJavaCourse" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Part1.module2_LanguageSyntax.lesson5_Loops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IncomeCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part1.module2_LanguageSyntax.lesson6.homeWork.Task2.IncomeCalculator" />
+      <module name="SBJavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Part1.module2_LanguageSyntax.lesson6.homeWork.Task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,6 +93,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Part1.module2_LanguageSyntax.lesson6.homeWork.Task1.RoadController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part1.module2_LanguageSyntax.lesson6.homeWork.Task1.RoadController" />
+      <module name="SBJavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Part1.module2_LanguageSyntax.lesson6.homeWork.Task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RoadController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Part1.module2_LanguageSyntax.lesson2_CodeExample.RoadController" />
       <module name="SBJavaCourse" />
@@ -96,39 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part1.module2_LanguageSyntax.lesson4_Boolean_ComparisonAndConditionalOperators.homeWork.Task1" />
-      <module name="SBJavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Part1.module2_LanguageSyntax.lesson4_Boolean_ComparisonAndConditionalOperators.homeWork.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part1.module2_LanguageSyntax.lesson4_Boolean_ComparisonAndConditionalOperators.homeWork.Task2" />
-      <module name="SBJavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Part1.module2_LanguageSyntax.lesson4_Boolean_ComparisonAndConditionalOperators.homeWork.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IncomeCalculator" />
+        <item itemvalue="Application.Part1.module2_LanguageSyntax.lesson6.homeWork.Task1.RoadController" />
         <item itemvalue="Application.RoadController" />
         <item itemvalue="Application.Part1.module2_LanguageSyntax.lesson5_Loops.homeWork.Task1" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.Task2" />
-        <item itemvalue="Application.Task1" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689099626964</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="P1 - module2: homework Conditional Operators">
+      <created>1689139815705</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689139815705</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
