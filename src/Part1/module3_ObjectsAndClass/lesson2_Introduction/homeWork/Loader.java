@@ -15,15 +15,23 @@ public class Loader {
     }
 
     static void killCatUseMeow(Cat cat){
-        for (double i = cat.getWeight();i>999;i = cat.getWeight()){
+        while (!cat.getStatus().equals("Dead")){
             cat.meow();
         }
+//        for (double i = cat.getWeight();i>999;i = cat.getWeight()){
+//            cat.meow();
+//        }
     }
 
    static void killCatUseFeed(Cat cat){
-        for (double i = cat.getWeight();i<9001;i = cat.getWeight()){
+
+        while(!cat.getStatus().equals("Exploded")){
             cat.feed(100.);
             cat.drink(200.);
         }
+//        for (double i = cat.getWeight();i<9001;i = cat.getWeight()){
+//            cat.feed(100.);
+//            cat.drink(200.);
+//        }
     }
 }
