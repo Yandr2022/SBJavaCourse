@@ -9,6 +9,7 @@ public class Cat {
 
     private double wasEatenFoodAmount;
     private double wasDrunkWaterAmount;
+    private double sumWasEatenFood;
 
     public Cat() {
         weight = 1500.0 + 3000.0 * Math.random();
@@ -17,7 +18,7 @@ public class Cat {
         maxWeight = 9000.0;
         wasDrunkWaterAmount = 0;
         wasEatenFoodAmount = 0;
-
+        sumWasEatenFood = 0;
     }
 
     public void meow() {
@@ -28,6 +29,7 @@ public class Cat {
     public void feed(Double amount) {
         weight = weight + amount;
         wasEatenFoodAmount = amount;
+        sumWasEatenFood +=amount;
     }
 
     public void drink(Double amount) {
@@ -35,7 +37,7 @@ public class Cat {
         wasDrunkWaterAmount = amount;
     }
 
-    public void goToToilet() {
+    public void pee() {
         if(wasEatenFoodAmount>0||wasDrunkWaterAmount>0) {
             weight = weight - ((wasDrunkWaterAmount - wasDrunkWaterAmount * 0.1)
                     + (wasEatenFoodAmount - wasEatenFoodAmount * 0.05));
@@ -48,6 +50,10 @@ public class Cat {
 
     public Double getWeight() {
         return weight;
+    }
+
+    public double getSumWasEatenFood() {
+        return sumWasEatenFood;
     }
 
     public String getStatus() {
