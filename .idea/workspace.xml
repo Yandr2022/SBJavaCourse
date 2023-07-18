@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3c37d35-8da4-4fd7-b6a6-01333cace7bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Part1/module4_Numbers_StringsAndDates/lesson4_Boxing_Unboxing/homework/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part1/module4_Numbers_StringsAndDates/lesson4_Boxing_Unboxing/homework/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part1/module4_Numbers_StringsAndDates/lesson13_Numbers/homework/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part1/module4_Numbers_StringsAndDates/lesson17_OperationsWithNumber/homework/task1/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part1/module4_Numbers_StringsAndDates/lesson17_OperationsWithNumber/homework/task1/GeometryCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part1/module4_Numbers_StringsAndDates/lesson17_OperationsWithNumber/homework/task2/HumanitarianAid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,18 +36,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Юлия/SBJavaCourse/lib/airport-1.0.1.jar",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.43218392",
-    "settings.editor.selected.configurable": "configurable.group.tools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Юлия/SBJavaCourse/lib/airport-1.0.1.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.43218392&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Юлия\SBJavaCourse\src\Part1\module3_ObjectsAndClass\lesson8_ObjectCopying\homeWork" />
@@ -58,7 +60,7 @@
       <recent name="Part1.module2_LanguageSyntax.lesson4_Boolean_ComparisonAndConditionalOperators" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Part1.module4_Numbers_StringsAndDates.lesson17_OperationsWithNumber.homework.task1.Demo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Part1.module3_ObjectsAndClass.lesson9_ExternalClassLibraries.homeWork.Demo" />
       <module name="SBJavaCourse" />
@@ -72,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Loader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part1.module3_ObjectsAndClass.lesson8_ObjectCopying.homeWork.Loader" />
+    <configuration name="HumanitarianAid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part1.module4_Numbers_StringsAndDates.lesson17_OperationsWithNumber.homework.task2.HumanitarianAid" />
       <module name="SBJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part1.module3_ObjectsAndClass.lesson8_ObjectCopying.homeWork.*" />
+          <option name="PATTERN" value="Part1.module4_Numbers_StringsAndDates.lesson17_OperationsWithNumber.homework.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Part1.module3_ObjectsAndClass.lesson7_Encapsulation_GettersAndSetters.homeWork.Task1.Loader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part1.module3_ObjectsAndClass.lesson7_Encapsulation_GettersAndSetters.homeWork.Task1.Loader" />
+    <configuration name="Part1.module4_Numbers_StringsAndDates.lesson13_Numbers.homework.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part1.module4_Numbers_StringsAndDates.lesson13_Numbers.homework.Demo" />
       <module name="SBJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part1.module3_ObjectsAndClass.lesson7_Encapsulation_GettersAndSetters.homeWork.Task1.*" />
+          <option name="PATTERN" value="Part1.module4_Numbers_StringsAndDates.lesson13_Numbers.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShowInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part1.module3_ObjectsAndClass.lesson9_ExternalClassLibraries.homeWork.ShowInfo" />
+    <configuration name="Part1.module4_Numbers_StringsAndDates.lesson17_OperationsWithNumber.homework.task1.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part1.module4_Numbers_StringsAndDates.lesson17_OperationsWithNumber.homework.task1.Demo" />
       <module name="SBJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part1.module3_ObjectsAndClass.lesson9_ExternalClassLibraries.homeWork.*" />
+          <option name="PATTERN" value="Part1.module4_Numbers_StringsAndDates.lesson17_OperationsWithNumber.homework.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Part1.module4_Numbers_StringsAndDates.lesson17_OperationsWithNumber.homework.task1.Demo" />
+        <item itemvalue="Application.HumanitarianAid" />
+        <item itemvalue="Application.Part1.module4_Numbers_StringsAndDates.lesson13_Numbers.homework.Demo" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.ShowInfo" />
-        <item itemvalue="Application.Loader" />
-        <item itemvalue="Application.Part1.module3_ObjectsAndClass.lesson7_Encapsulation_GettersAndSetters.homeWork.Task1.Loader" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689393290725</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="P1 - module4 Numbers, Strings &amp; Dates: boxing &amp; unboxing">
+      <created>1689397858095</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1689397858095</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -274,6 +283,7 @@
     <MESSAGE value="P1 - module3 Object &amp; Class: Encapsulation, getters &amp; setters" />
     <MESSAGE value="P1 - module3 Object &amp; Class: copying objects" />
     <MESSAGE value="P1 - module3 Object &amp; Class: external libraries" />
-    <option name="LAST_COMMIT_MESSAGE" value="P1 - module3 Object &amp; Class: external libraries" />
+    <MESSAGE value="P1 - module4 Numbers, Strings &amp; Dates: boxing &amp; unboxing" />
+    <option name="LAST_COMMIT_MESSAGE" value="P1 - module4 Numbers, Strings &amp; Dates: boxing &amp; unboxing" />
   </component>
 </project>
