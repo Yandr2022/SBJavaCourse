@@ -7,10 +7,10 @@ public class Demo {
 
         long start = System.currentTimeMillis();
         for (int i = 0; i < 100_000; i++) {
-            s+=s1;
+            s += s1;
         }
         long end = System.currentTimeMillis();
-        System.out.println("duration: "+ (end-start));
+        System.out.println("duration: " + (end - start));
         System.out.println(s.length());
 
 
@@ -20,7 +20,7 @@ public class Demo {
             builder.append(s1);
         }
         end = System.currentTimeMillis();
-        System.out.println("duration: "+ (end-start));
+        System.out.println("duration: " + (end - start));
         System.out.println(builder.length());
 
     }

@@ -25,5 +25,6 @@ public class HumanitarianAid {
 
         System.out.println("Trucks: " + cargo);
         System.out.println("Containers: " + container);
+        scanner.close();
     }
 }
