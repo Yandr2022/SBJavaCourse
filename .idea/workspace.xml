@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3c37d35-8da4-4fd7-b6a6-01333cace7bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Part1/module5_ArraysAndCollections/lesson5_HomeWork/task2/Hospital.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part1/module5_ArraysAndCollections/lesson5_HomeWork/task3/PrintExperiments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part1/module5_ArraysAndCollections/lesson6_List/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part1/module5_ArraysAndCollections/lesson6_List/homework/TodoList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part1/module5_ArraysAndCollections/lesson5_HomeWork/task1/ReverseElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module5_ArraysAndCollections/lesson5_HomeWork/task1/ReverseElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part1/module5_ArraysAndCollections/lesson5_HomeWork/task3/PrintExperiments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module5_ArraysAndCollections/lesson5_HomeWork/task3/PrintExperiments.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,7 @@
       <recent name="Part1.module2_LanguageSyntax.lesson4_Boolean_ComparisonAndConditionalOperators" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrintExperiments">
+  <component name="RunManager" selected="Application.Part1.module5_ArraysAndCollections.lesson6_List.Demo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Part1.module4_Numbers_StringsAndDates.lesson22_ConcatString.Demo" />
       <module name="SBJavaCourse" />
@@ -80,6 +80,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Part1.module5_ArraysAndCollections.lesson5_HomeWork.task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Part1.module5_ArraysAndCollections.lesson6_List.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part1.module5_ArraysAndCollections.lesson6_List.Demo" />
+      <module name="SBJavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Part1.module5_ArraysAndCollections.lesson6_List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,26 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchAndReplace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part1.module4_Numbers_StringsAndDates.lesson21_String.homework.task4.SearchAndReplace" />
-      <module name="SBJavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Part1.module4_Numbers_StringsAndDates.lesson21_String.homework.task4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Part1.module5_ArraysAndCollections.lesson6_List.Demo" />
         <item itemvalue="Application.PrintExperiments" />
         <item itemvalue="Application.Hospital" />
         <item itemvalue="Application.ReverseElements" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.SearchAndReplace" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689743162957</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="P1 - module5 Arrays &amp; Collections: Arrays - homework">
+      <created>1689999787921</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1689999787921</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -315,6 +322,7 @@
     <MESSAGE value="P1 - module4 Numbers, Strings &amp; Dates: boundary values of numeric values of various types" />
     <MESSAGE value="P1 - module4 Numbers, Strings &amp; Dates: operations with numbers, class Math" />
     <MESSAGE value="P1 - module4 Numbers, Strings &amp; Dates: operations with Strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="P1 - module4 Numbers, Strings &amp; Dates: operations with Strings" />
+    <MESSAGE value="P1 - module5 Arrays &amp; Collections: Arrays - homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="P1 - module5 Arrays &amp; Collections: Arrays - homework" />
   </component>
 </project>
