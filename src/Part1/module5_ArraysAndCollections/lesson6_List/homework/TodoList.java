@@ -5,21 +5,31 @@ import java.util.ArrayList;
 
 import java.util.List;
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class TodoList {
     public static void main(String[] args) {
-        List<String> todoList = new ArrayList<>(){{add("breackfast");add("yoga");add("go to work");}};
+        List<String> todoList = new ArrayList<>() {{
+            add("breackfast");
+            add("yoga");
+            add("go to work");
+        }};
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter one of the commands below:\nLIST - show cases with their sequence numbers\n" +
                 "ADD (n) - add a case to the end of the list or a case to place number -n," +
                 " moving the rest of the cases forward\nEDIT n - replace case with number -n" +
                 "\nDELETE - delete case number -n");
-        String command = scanner.nextLine();
-//                findInLine("\\s*LIST\\s*|\\s*ADD\\s*(\\d+)?|\\s+(EDIT|DELETE)\\s+\\d+");
-        String[] commands = command.split("\\s");
 
-            if (commands.length == 1) {
+
+        String[] commands;
+        for (String userInput = scanner.nextLine(); !userInput.contains("EXIT"); userInput = scanner.nextLine()) {
+            commands = userInput.split("\\s+");
+            if (commands.length == 0) {
+                System.out.println("Try again");
+                continue;
+            } else {
                 switch (commands[0]) {
                     case "LIST":
                         for (int i = 0; i < todoList.size(); i++) {
@@ -27,43 +37,63 @@ public class TodoList {
                         }
                         break;
                     case "ADD":
-                        System.out.println("Enter case:");
-                        String newCase = scanner.nextLine();
-                        todoList.add(newCase);
-                        System.out.println(todoList);
+                        if (commands.length > 1) {
+                            StringBuilder builder = new StringBuilder();
+                            if (Character.isDigit(commands[1].charAt(0))) {
+                                Matcher matcher = Pattern.compile("\\d+").matcher(commands[1]);
+                                matcher.find();
+                                int index = Integer.parseInt(matcher.group());
+                                if (index < commands.length - 1 && index >= 0) {
+                                    for (int i = 2; i < commands.length; i++) {
+                                        builder.append(commands[i]).append(" ");
+                                    }
+                                    todoList.add(index, builder.toString());
+                                } else {
+                                    System.out.println("Try again");
+                                }
+                            } else {
+                                for (int i = 1; i < commands.length; i++) {
+                                    builder.append(commands[i]).append(" ");
+                                }
+                                todoList.add(builder.toString());
+                            }
+                        } else {
+                            System.out.println("Try again");
+                        }
                         break;
-                    default:
-                        System.out.println("Wrong command");
+                    case "EDIT":
+                        if (commands.length > 1 && Character.isDigit(commands[1].charAt(0))) {
+                            StringBuilder builder = new StringBuilder();
+                            Matcher matcher = Pattern.compile("\\d+").matcher(commands[1]);
+                            matcher.find();
+                            int index = Integer.parseInt(matcher.group());
+                            todoList.remove(index);
+                            for (int i = 2; i < commands.length; i++) {
+                                builder.append(commands[i]).append(" ");
+                            }
+                            todoList.add(index, builder.toString());
+                        } else {
+                            System.out.println("Try again");
+                        }
+                        break;
+                    case "DELETE":
+                        if (commands.length > 1 && Character.isDigit(commands[1].charAt(0))) {
+                            Matcher matcher = Pattern.compile("\\d+").matcher(commands[1]);
+                            matcher.find();
+                            int index = Integer.parseInt(matcher.group());
+                            todoList.remove(index);
+                        } else {
+                            System.out.println("Try again");
+                        }
                 }
-            } else {
-                int caseNum = Integer.parseInt(commands[1]);
-                if (caseNum > todoList.size() - 1 || caseNum < 0) {
-                    System.out.println("Wrong case number");
-                } else {
-                    String newCase;
-                    switch (commands[0]) {
-                        case "ADD":
-                            System.out.println("Enter case:");
-                            newCase = scanner.nextLine();
-                            todoList.add(caseNum, newCase);
-                            System.out.println(todoList);
-                            break;
-                        case "EDIT":
-                            System.out.println("Enter new case:");
-                            newCase = scanner.nextLine();
-                            todoList.remove(caseNum);
-                            todoList.add(caseNum, newCase);
-                            System.out.println(todoList);
-                            break;
-                        case "DELETE":
-                            todoList.remove(caseNum);
-                            System.out.println(todoList);
-                            break;
-                    }
-                }
+
             }
+
+        }
 
         scanner.close();
     }
 
+
 }
+
