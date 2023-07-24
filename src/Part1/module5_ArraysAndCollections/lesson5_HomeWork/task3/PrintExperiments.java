@@ -3,7 +3,7 @@ package Part1.module5_ArraysAndCollections.lesson5_HomeWork.task3;
 import java.util.Arrays;
 
 public class PrintExperiments {
-
+    
     public static void main(String[] args) {
 
         String[][] cross = new String[7][7];
@@ -18,6 +18,6 @@ public class PrintExperiments {
         ) {
             System.out.println(Arrays.toString(s));
         }
-        
+
     }
 }
