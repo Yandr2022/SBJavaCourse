@@ -1,6 +1,5 @@
-package Part1.module5_ArraysAndCollections.lesson9_HashMap_TreeMap;
+package Part1.module5_ArraysAndCollections.lesson9_11_HashMap_TreeMap;
 
-import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;

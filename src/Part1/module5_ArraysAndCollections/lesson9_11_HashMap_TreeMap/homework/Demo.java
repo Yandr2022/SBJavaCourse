@@ -1,4 +1,4 @@
-package Part1.module5_ArraysAndCollections.lesson9_HashMap_TreeMap.homework;
+package Part1.module5_ArraysAndCollections.lesson9_11_HashMap_TreeMap.homework;
 
 import java.util.Map;
 import java.util.Scanner;
