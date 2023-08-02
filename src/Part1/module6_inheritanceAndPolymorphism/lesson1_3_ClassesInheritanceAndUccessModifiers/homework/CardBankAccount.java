@@ -1,4 +1,4 @@
-package Part1.module6_inheritanceAndPolymorphism.lesson1_ClassesInheritance.homework;
+package Part1.module6_inheritanceAndPolymorphism.lesson1_3_ClassesInheritanceAndUccessModifiers.homework;
 
 
 

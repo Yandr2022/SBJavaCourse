@@ -1,4 +1,4 @@
-package Part1.module6_inheritanceAndPolymorphism.lesson1_ClassesInheritance.homework;
+package Part1.module6_inheritanceAndPolymorphism.lesson1_3_ClassesInheritanceAndUccessModifiers.homework;
 
 
 import java.time.LocalDate;
@@ -28,7 +28,7 @@ public class DepositBankAccount extends BankAccount {
         System.out.println(((DepositBankAccount) account).send(account1, 100));
         System.out.println(account.getMoneyAmount());
         System.out.println(account1.getMoneyAmount());
-        
+
 
 
     }
