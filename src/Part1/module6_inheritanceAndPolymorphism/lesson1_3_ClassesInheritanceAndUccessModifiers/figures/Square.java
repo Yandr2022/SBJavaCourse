@@ -1,4 +1,4 @@
-package Part1.module6_inheritanceAndPolymorphism.lesson1_ClassesInheritance.figures;
+package Part1.module6_inheritanceAndPolymorphism.lesson1_3_ClassesInheritanceAndUccessModifiers.figures;
 
 public class Square extends Rectangle {
     public Square(int width) {
@@ -7,13 +7,13 @@ public class Square extends Rectangle {
 
     @Override
     public void setWidth(int width) {
-        this.width = width;
-        height = width;
+        setWidth(width) ;
+        setHeight(width);
     }
 
     @Override
     public void setHeight(int height) {
-        width = height;
-        this.height = height;
+        setWidth(height);
+        setHeight(height);
     }
 }
