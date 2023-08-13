@@ -1,4 +1,4 @@
-package Part1.module7_OOP.lesson1_Lambdas.homework;
+package Part1.module7_OOP.lesson1_2_Lambdas.homework;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -21,7 +21,7 @@ public class Demo {
 
     }
 
-    private static ArrayList<Employee> loadStaffFromFile() {
+    public static ArrayList<Employee> loadStaffFromFile() {
         ArrayList<Employee> staff = new ArrayList<>();
         try {
             List<String> lines = Files.readAllLines(Paths.get(staffFile));

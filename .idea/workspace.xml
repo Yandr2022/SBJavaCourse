@@ -4,19 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3c37d35-8da4-4fd7-b6a6-01333cace7bf" name="Changes" comment="P1 - module5 Arrays &amp; Collections: TreeMap - homework">
-      <change afterPath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson4_AbstractClasses/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson4_AbstractClasses/figures/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson4_AbstractClasses/figures/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson4_AbstractClasses/figures/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson4_AbstractClasses/figures/abstraction/Figure.java" afterDir="false" />
+    <list default="true" id="e3c37d35-8da4-4fd7-b6a6-01333cace7bf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Part1/module7_OOP/lesson3_8_StreamAPI/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part1/module7_OOP/lesson3_8_StreamAPI/homework/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part1/module7_OOP/lesson3_8_StreamAPI/homework/Task2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson1_ClassesInheritance/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson1_3_ClassesInheritanceAndUccessModifiers/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson1_ClassesInheritance/figures/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson1_3_ClassesInheritanceAndUccessModifiers/figures/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson1_ClassesInheritance/figures/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson1_3_ClassesInheritanceAndUccessModifiers/figures/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson1_ClassesInheritance/homework/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson1_3_ClassesInheritanceAndUccessModifiers/homework/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson1_ClassesInheritance/homework/CardBankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson1_3_ClassesInheritanceAndUccessModifiers/homework/CardBankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson1_ClassesInheritance/homework/DepositBankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson1_3_ClassesInheritanceAndUccessModifiers/homework/DepositBankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson7_11_InterfacesPolymorphismLambdas/homework/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson7_11_InterfacesPolymorphismLambdas/homework/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson7_11_InterfacesPolymorphismLambdas/homework/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson7_11_InterfacesPolymorphismLambdas/homework/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson7_11_InterfacesPolymorphismLambdas/homework/employee/abstraction/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson7_11_InterfacesPolymorphismLambdas/homework/employee/abstraction/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part1/module7_OOP/lesson1_Lambdas/homework/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module7_OOP/lesson1_2_Lambdas/homework/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part1/module7_OOP/lesson1_Lambdas/homework/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module7_OOP/lesson1_2_Lambdas/homework/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -43,41 +41,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last.edited.regexp": "",
-    "last_opened_file_path": "C:/Users/Юлия/SBJavaCourse/src/Part1/module6_inheritanceAndPolymorphism/lesson4_AbstractClasses",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.43218392",
-    "settings.editor.selected.configurable": "configurable.group.tools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last.edited.regexp&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Юлия/SBJavaCourse/src/Part1/module6_inheritanceAndPolymorphism/lesson7_Interfaces/figures&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.43218392&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Юлия\SBJavaCourse\src\Part1\module6_inheritanceAndPolymorphism\lesson7_Interfaces\figures" />
+      <recent name="C:\Users\Юлия\SBJavaCourse\src\Part1\module6_inheritanceAndPolymorphism\lesson7_Interfaces" />
+      <recent name="C:\Users\Юлия\SBJavaCourse\src\Part1\module6_inheritanceAndPolymorphism\lesson4_AbstractClasses\homework" />
       <recent name="C:\Users\Юлия\SBJavaCourse\src\Part1\module6_inheritanceAndPolymorphism\lesson4_AbstractClasses" />
       <recent name="C:\Users\Юлия\SBJavaCourse\src\Part1\module3_ObjectsAndClass\lesson8_ObjectCopying\homeWork" />
-      <recent name="C:\Users\Юлия\SBJavaCourse\src\Part1\module3_ObjectsAndClass\lesson7_Encapsulation_GettersAndSetters\homeWork\Task2" />
-      <recent name="C:\Users\Юлия\SBJavaCourse\src\Part1\module3_ObjectsAndClass\lesson7_Encapsulation_GettersAndSetters\homeWork\Task1" />
-      <recent name="C:\Users\Юлия\SBJavaCourse\src\Part1\module3_ObjectsAndClass\lesson6_ConstructorsAndObjectCreating\homeWork" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Part1.module6_inheritanceAndPolymorphism.lesson7_Interfaces.figures" />
       <recent name="Part1.module2_LanguageSyntax.lesson4_Boolean_ComparisonAndConditionalOperators" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Part1.module7_OOP.lesson3_StreamAPI" />
+      <recent name="Part1.module6_inheritanceAndPolymorphism.lesson7_11_InterfacesPolymorphismLambdas.homework" />
+      <recent name="Part1.module6_inheritanceAndPolymorphism.lesson7_Interfaces.figures.abstraction" />
+      <recent name="Part1.module6_inheritanceAndPolymorphism.lesson4_AbstractClasses.homework" />
       <recent name="Part1.module6_inheritanceAndPolymorphism.lesson1_ClassesInheritance.homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DepositBankAccount">
-    <configuration name="CardBankAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part1.module6_inheritanceAndPolymorphism.lesson1_3_ClassesInheritanceAndUccessModifiers.homework.CardBankAccount" />
+  <component name="RunManager" selected="Application.Task2">
+    <configuration name="BirthdaysParsing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part1.module4_Numbers_StringsAndDates.lesson26_CalendarAndTimestamp.homework.BirthdaysParsing" />
       <module name="SBJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part1.module6_inheritanceAndPolymorphism.lesson1_3_ClassesInheritanceAndUccessModifiers.homework.*" />
+          <option name="PATTERN" value="Part1.module4_Numbers_StringsAndDates.lesson26_CalendarAndTimestamp.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part1.module6_inheritanceAndPolymorphism.lesson1_3_ClassesInheritanceAndUccessModifiers.Demo" />
+    <configuration name="Part1.module7_OOP.lesson3_8_StreamAPI.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part1.module7_OOP.lesson3_8_StreamAPI.Demo" />
       <module name="SBJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part1.module6_inheritanceAndPolymorphism.lesson1_3_ClassesInheritanceAndUccessModifiers.*" />
+          <option name="PATTERN" value="Part1.module7_OOP.lesson3_8_StreamAPI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DepositBankAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part1.module6_inheritanceAndPolymorphism.lesson1_3_ClassesInheritanceAndUccessModifiers.homework.DepositBankAccount" />
+    <configuration name="ShowInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part1.module3_ObjectsAndClass.lesson9_ExternalClassLibraries.homeWork.ShowInfo" />
       <module name="SBJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part1.module6_inheritanceAndPolymorphism.lesson1_3_ClassesInheritanceAndUccessModifiers.homework.*" />
+          <option name="PATTERN" value="Part1.module3_ObjectsAndClass.lesson9_ExternalClassLibraries.homeWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Part1.module5_ArraysAndCollections.lesson12_searchingAndSorting.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part1.module5_ArraysAndCollections.lesson12_searchingAndSorting.Demo" />
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part1.module7_OOP.lesson3_8_StreamAPI.homework.Task1" />
       <module name="SBJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part1.module5_ArraysAndCollections.lesson12_searchingAndSorting.*" />
+          <option name="PATTERN" value="Part1.module7_OOP.lesson3_8_StreamAPI.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Part1.module5_ArraysAndCollections.lesson12_searchingAndSorting.homework.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part1.module5_ArraysAndCollections.lesson12_searchingAndSorting.homework.Demo" />
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part1.module7_OOP.lesson3_8_StreamAPI.homework.Task2" />
       <module name="SBJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part1.module5_ArraysAndCollections.lesson12_searchingAndSorting.homework.*" />
+          <option name="PATTERN" value="Part1.module7_OOP.lesson3_8_StreamAPI.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DepositBankAccount" />
-        <item itemvalue="Application.CardBankAccount" />
-        <item itemvalue="Application.Part1.module6_inheritanceAndPolymorphism.lesson1_ClassesInheritance.Demo" />
-        <item itemvalue="Application.Part1.module5_ArraysAndCollections.lesson12_searchingAndSorting.homework.Demo" />
-        <item itemvalue="Application.Part1.module5_ArraysAndCollections.lesson12_searchingAndSorting.Demo" />
+        <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.ShowInfo" />
+        <item itemvalue="Application.Task1" />
+        <item itemvalue="Application.BirthdaysParsing" />
+        <item itemvalue="Application.Part1.module7_OOP.lesson3_8_StreamAPI.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -359,16 +362,52 @@
       <option name="project" value="LOCAL" />
       <updated>1690944698359</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="P1 - module6 Inheritance &amp; Polymorphism: rename package">
+      <created>1690947008169</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1690947008169</updated>
+    </task>
+    <task id="LOCAL-00031" summary="P1 - module6 Inheritance &amp; Polymorphism: Access modifiers">
+      <created>1690947123507</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1690947123507</updated>
+    </task>
+    <task id="LOCAL-00032" summary="P1 - module5 Inheritance &amp; Polymorphism: Abstract Classes">
+      <created>1690947184510</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1690947184510</updated>
+    </task>
+    <task id="LOCAL-00033" summary="P1 - module6 Inheritance &amp; Polymorphism: Polymorphism, Interfaces, Lambdas">
+      <created>1691693933925</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1691693933925</updated>
+    </task>
+    <task id="LOCAL-00034" summary="P1 - module6 Inheritance &amp; Polymorphism: Polymorphism, Interfaces, Lambdas -homework">
+      <created>1691826617546</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1691826617546</updated>
+    </task>
+    <task id="LOCAL-00035" summary="P1 - module7 OOP: Lambdas -homework">
+      <created>1691826651363</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1691826651363</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="P1 - module2: example of Code" />
-    <MESSAGE value="P1 - module2: variables" />
-    <MESSAGE value="P1 - module2: homework Conditional Operators" />
-    <MESSAGE value="P1 - module2: code example review" />
-    <MESSAGE value="P1 - module3 Object &amp; Class: Introduction" />
-    <MESSAGE value="P1 - module3 Object &amp; Class: Methods" />
     <MESSAGE value="P1 - module3 Object &amp; Class: Methods, homeWork" />
     <MESSAGE value="P1 - module3 Object &amp; Class: Introduction, homeWork" />
     <MESSAGE value="P1 - module3 Object &amp; Class: Static methods &amp; variables" />
@@ -388,6 +427,12 @@
     <MESSAGE value="P1 - module5 Arrays &amp; Collections: rename package" />
     <MESSAGE value="P1 - module5 Arrays &amp; Collections: searching and sorting" />
     <MESSAGE value="P1 - module6 Inheritance &amp; Polymorphism: Classes inheritance - homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="P1 - module6 Inheritance &amp; Polymorphism: Classes inheritance - homework" />
+    <MESSAGE value="P1 - module6 Inheritance &amp; Polymorphism: rename package" />
+    <MESSAGE value="P1 - module6 Inheritance &amp; Polymorphism: Access modifiers" />
+    <MESSAGE value="P1 - module5 Inheritance &amp; Polymorphism: Abstract Classes" />
+    <MESSAGE value="P1 - module6 Inheritance &amp; Polymorphism: Polymorphism, Interfaces, Lambdas" />
+    <MESSAGE value="P1 - module6 Inheritance &amp; Polymorphism: Polymorphism, Interfaces, Lambdas -homework" />
+    <MESSAGE value="P1 - module7 OOP: Lambdas -homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="P1 - module7 OOP: Lambdas -homework" />
   </component>
 </project>

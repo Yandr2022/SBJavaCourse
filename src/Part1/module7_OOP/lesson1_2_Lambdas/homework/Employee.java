@@ -1,4 +1,4 @@
-package Part1.module7_OOP.lesson1_Lambdas.homework;
+package Part1.module7_OOP.lesson1_2_Lambdas.homework;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
