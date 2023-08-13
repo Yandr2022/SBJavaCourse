@@ -13,25 +13,25 @@ public class Demo {
         List<Employee> employeeList = new ArrayList<>();
         for (int i = 0; i < 180; i++) {
             employeeList.add(new Operator());
-            if(i<80){
+            if (i < 80) {
                 employeeList.add(new Manager());
-                if(i<10){
+                if (i < 10) {
                     employeeList.add(new TopManager());
                 }
             }
         }
         System.out.println(employeeList.size());
-Company company  = new Company(employeeList,7500,"MyCompany");
+        Company company = new Company(employeeList, 7500, "MyCompany");
         company.calculateIncome();
-        System.out.println(company.getIncome() );
-        for (Employee emp: company.getLowestSalaryStaff(20)
-             ) {
-            System.out.println(emp +": "+ emp.getMonthSalary());
+        System.out.println(company.getIncome());
+        for (Employee emp : company.getLowestSalaryStaff(20)
+        ) {
+            System.out.println(emp + ": " + emp.getMonthSalary());
         }
         System.out.println("*********************");
-        for (Employee emp: company.getTopSalaryStaff(200)
-             ) {
-            System.out.println(emp +": "+ emp.getMonthSalary());
+        for (Employee emp : company.getTopSalaryStaff(200)
+        ) {
+            System.out.println(emp + ": " + emp.getMonthSalary());
         }
 
 

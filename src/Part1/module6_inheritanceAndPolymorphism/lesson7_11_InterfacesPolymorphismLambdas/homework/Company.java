@@ -73,13 +73,14 @@ public class Company {
         return income;
     }
 
-    public List<Employee> getTopSalaryStaff(int count){
+    public List<Employee> getTopSalaryStaff(int count) {
         employeeList.sort(Comparator.comparingInt(Employee::getMonthSalary));
-        return new ArrayList<Employee>(employeeList.subList(0,count-1));
+        return new ArrayList<Employee>(employeeList.subList(0, count - 1));
     }
-    public List<Employee> getLowestSalaryStaff(int count){
-        employeeList.sort((o1,o2)-> o2.getMonthSalary()- o1.getMonthSalary());
-        return new ArrayList<Employee>(employeeList.subList(0,count-1));
+
+    public List<Employee> getLowestSalaryStaff(int count) {
+        employeeList.sort((o1, o2) -> o2.getMonthSalary() - o1.getMonthSalary());
+        return new ArrayList<Employee>(employeeList.subList(0, count - 1));
     }
 
     @Override

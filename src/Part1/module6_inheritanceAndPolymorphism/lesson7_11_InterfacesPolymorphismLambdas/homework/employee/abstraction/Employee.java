@@ -5,5 +5,6 @@ import Part1.module6_inheritanceAndPolymorphism.lesson7_11_InterfacesPolymorphis
 public interface Employee {
 
     int getMonthSalary();
+
     void setCompany(Company company);
 }
