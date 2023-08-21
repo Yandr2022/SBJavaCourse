@@ -1,5 +1,6 @@
 package Part2.module8_Exceptions.lesson1_Introduction;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Demo
@@ -18,10 +19,15 @@ public class Demo
         CustomerStorage executor = new CustomerStorage();
         for(;;)
         {
+            try {
             String command = scanner.nextLine();
             String[] tokens = command.split("\\s+", 2);
             if(tokens[0].equals("add")) {
-                executor.addCustomer(tokens[1]);
+                try {
+                    executor.addCustomer(tokens[1]);
+                } catch (IOException e) {
+                    System.out.println(e.getMessage());
+                }
             }
             else if(tokens[0].equals("list")) {
                 executor.listCustomers();
@@ -39,6 +45,9 @@ public class Demo
             else {
                 System.out.println(commandError);
             }
+            }catch (IllegalArgumentException e){
+        e.printStackTrace();
+    }
         }
     }
 }
