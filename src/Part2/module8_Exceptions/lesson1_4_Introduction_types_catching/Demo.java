@@ -1,4 +1,4 @@
-package Part2.module8_Exceptions.lesson1_Introduction;
+package Part2.module8_Exceptions.lesson1_4_Introduction_types_catching;
 
 import java.io.IOException;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package Part2.module8_Exceptions.lesson1_Introduction;
+package Part2.module8_Exceptions.lesson1_4_Introduction_types_catching;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -22,7 +22,7 @@ public class CustomerStorage
         if (!Pattern.matches("(\\+375)(29|44|17|33|44|25)\\d{7}", components[3])){
             throw new IOException("Wrong format tel number\nexample:+375297090835");
         }
-        if (!Pattern.matches("\\w+@\\w+\\.\\w+", components[2])){
+        if (!Pattern.matches("(\\w+|\\w+\\.\\w+)@\\w+\\.\\w+", components[2])){
             throw new IOException("Wrong format email\nexample:vasily.petrov@gmail.com");
         }
         storage.put(name, new Customer(name, components[3], components[2]));
