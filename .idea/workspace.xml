@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3c37d35-8da4-4fd7-b6a6-01333cace7bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Part1/module7_OOP/lesson3_8_StreamAPI/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part1/module7_OOP/lesson3_8_StreamAPI/homework/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part1/module7_OOP/lesson3_8_StreamAPI/homework/Task2.java" afterDir="false" />
+    <list default="true" id="e3c37d35-8da4-4fd7-b6a6-01333cace7bf" name="Changes" comment="P2 - module8 Exceptions: Stream API">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson7_11_InterfacesPolymorphismLambdas/homework/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson7_11_InterfacesPolymorphismLambdas/homework/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson7_11_InterfacesPolymorphismLambdas/homework/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson7_11_InterfacesPolymorphismLambdas/homework/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson7_11_InterfacesPolymorphismLambdas/homework/employee/abstraction/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module6_inheritanceAndPolymorphism/lesson7_11_InterfacesPolymorphismLambdas/homework/employee/abstraction/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part1/module7_OOP/lesson1_Lambdas/homework/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module7_OOP/lesson1_2_Lambdas/homework/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part1/module7_OOP/lesson1_Lambdas/homework/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part1/module7_OOP/lesson1_2_Lambdas/homework/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part2/module8_Exceptions/lesson1_4_Introduction_types_catching/CustomerStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part2/module8_Exceptions/lesson1_4_Introduction_types_catching/CustomerStorage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +28,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2SN8Rj6DeIRIR02nIh6ELK8MxUS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -45,42 +45,47 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-11&quot;,
     &quot;last.edited.regexp&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Юлия/SBJavaCourse/src/Part1/module6_inheritanceAndPolymorphism/lesson7_Interfaces/figures&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Юлия/SBJavaCourse/lib/json-simple-1.1.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.43218392&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Юлия\SBJavaCourse\src\Part1\module7_OOP\src.Part1.module7_OOP.lesson11_maven\src\main" />
+      <recent name="C:\Users\Юлия\SBJavaCourse\data" />
       <recent name="C:\Users\Юлия\SBJavaCourse\src\Part1\module6_inheritanceAndPolymorphism\lesson7_Interfaces\figures" />
       <recent name="C:\Users\Юлия\SBJavaCourse\src\Part1\module6_inheritanceAndPolymorphism\lesson7_Interfaces" />
       <recent name="C:\Users\Юлия\SBJavaCourse\src\Part1\module6_inheritanceAndPolymorphism\lesson4_AbstractClasses\homework" />
-      <recent name="C:\Users\Юлия\SBJavaCourse\src\Part1\module6_inheritanceAndPolymorphism\lesson4_AbstractClasses" />
-      <recent name="C:\Users\Юлия\SBJavaCourse\src\Part1\module3_ObjectsAndClass\lesson8_ObjectCopying\homeWork" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Юлия\SBJavaCourse\src\Part1\module7_OOP" />
+      <recent name="C:\Users\Юлия\SBJavaCourse\Part1\module7_OOP" />
+      <recent name="C:\Users\Юлия\SBJavaCourse" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Part1.module6_inheritanceAndPolymorphism.lesson7_Interfaces.figures" />
       <recent name="Part1.module2_LanguageSyntax.lesson4_Boolean_ComparisonAndConditionalOperators" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
       <recent name="Part1.module7_OOP.lesson3_StreamAPI" />
       <recent name="Part1.module6_inheritanceAndPolymorphism.lesson7_11_InterfacesPolymorphismLambdas.homework" />
       <recent name="Part1.module6_inheritanceAndPolymorphism.lesson7_Interfaces.figures.abstraction" />
       <recent name="Part1.module6_inheritanceAndPolymorphism.lesson4_AbstractClasses.homework" />
-      <recent name="Part1.module6_inheritanceAndPolymorphism.lesson1_ClassesInheritance.homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task2">
-    <configuration name="BirthdaysParsing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part1.module4_Numbers_StringsAndDates.lesson26_CalendarAndTimestamp.homework.BirthdaysParsing" />
+  <component name="RunManager" selected="Application.Part2.module8_Exceptions.lesson1_4_Introduction_types_catching.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part1.module7_OOP.lesson10_Generics.Demo" />
       <module name="SBJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part1.module4_Numbers_StringsAndDates.lesson26_CalendarAndTimestamp.homework.*" />
+          <option name="PATTERN" value="Part1.module7_OOP.lesson10_Generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Part1.module7_OOP.lesson3_8_StreamAPI.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part1.module7_OOP.lesson3_8_StreamAPI.Demo" />
+    <configuration name="Part1.module7_OOP.lesson11_Maven.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part1.module7_OOP.lesson11_Maven.Demo" />
       <module name="SBJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part1.module7_OOP.lesson3_8_StreamAPI.*" />
+          <option name="PATTERN" value="Part1.module7_OOP.lesson11_Maven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShowInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part1.module3_ObjectsAndClass.lesson9_ExternalClassLibraries.homeWork.ShowInfo" />
+    <configuration name="Part2.module8_Exceptions.lesson1_4_Introduction_types_catching.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2.module8_Exceptions.lesson1_4_Introduction_types_catching.Demo" />
       <module name="SBJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part1.module3_ObjectsAndClass.lesson9_ExternalClassLibraries.homeWork.*" />
+          <option name="PATTERN" value="Part2.module8_Exceptions.lesson1_4_Introduction_types_catching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Part2.module8_Exceptions.lesson1_4_Introduction_types_catching.Demo" />
+        <item itemvalue="Application.Part1.module7_OOP.lesson11_Maven.Demo" />
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Task2" />
-        <item itemvalue="Application.ShowInfo" />
         <item itemvalue="Application.Task1" />
-        <item itemvalue="Application.BirthdaysParsing" />
-        <item itemvalue="Application.Part1.module7_OOP.lesson3_8_StreamAPI.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -404,17 +409,66 @@
       <option name="project" value="LOCAL" />
       <updated>1691826651363</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="P1 - module7 OOP: Lambdas -homework">
+      <created>1691903476531</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1691903476531</updated>
+    </task>
+    <task id="LOCAL-00037" summary="P1 - module7 OOP: Stream API">
+      <created>1691903528445</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1691903528445</updated>
+    </task>
+    <task id="LOCAL-00038" summary="P1 - module7 OOP: default &amp; static IF methods">
+      <created>1692328989620</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1692328989620</updated>
+    </task>
+    <task id="LOCAL-00039" summary="P1 - module7 OOP: Generics">
+      <created>1692329016059</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1692329016059</updated>
+    </task>
+    <task id="LOCAL-00040" summary="P1 - module7 OOP: JSON parser">
+      <created>1692418441255</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1692418441255</updated>
+    </task>
+    <task id="LOCAL-00041" summary="P2 - module8 Exceptions: introduction">
+      <created>1692418850859</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1692418850859</updated>
+    </task>
+    <task id="LOCAL-00042" summary="P2 - module8 Exceptions: Introduction">
+      <created>1692644505095</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1692644505095</updated>
+    </task>
+    <task id="LOCAL-00043" summary="renamed package">
+      <created>1692758706643</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1692758706643</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="P1 - module3 Object &amp; Class: Methods, homeWork" />
-    <MESSAGE value="P1 - module3 Object &amp; Class: Introduction, homeWork" />
-    <MESSAGE value="P1 - module3 Object &amp; Class: Static methods &amp; variables" />
-    <MESSAGE value="P1 - module3 Object &amp; Class: Constant &amp; Enum" />
-    <MESSAGE value="P1 - module3 Object &amp; Class: Constructor &amp; Object creating" />
-    <MESSAGE value="P1 - module3 Object &amp; Class: Encapsulation, getters &amp; setters" />
-    <MESSAGE value="P1 - module3 Object &amp; Class: copying objects" />
     <MESSAGE value="P1 - module3 Object &amp; Class: external libraries" />
     <MESSAGE value="P1 - module4 Numbers, Strings &amp; Dates: boxing &amp; unboxing" />
     <MESSAGE value="P1 - module4 Numbers, Strings &amp; Dates: boundary values of numeric values of various types" />
@@ -433,6 +487,17 @@
     <MESSAGE value="P1 - module6 Inheritance &amp; Polymorphism: Polymorphism, Interfaces, Lambdas" />
     <MESSAGE value="P1 - module6 Inheritance &amp; Polymorphism: Polymorphism, Interfaces, Lambdas -homework" />
     <MESSAGE value="P1 - module7 OOP: Lambdas -homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="P1 - module7 OOP: Lambdas -homework" />
+    <MESSAGE value="P1 - module7 OOP: Stream API" />
+    <MESSAGE value="P1 - module7 OOP: default &amp; static IF methods" />
+    <MESSAGE value="P1 - module7 OOP: Generics" />
+    <MESSAGE value="P1 - module7 OOP: JSON parser" />
+    <MESSAGE value="P2 - module8 Exceptions: introduction" />
+    <MESSAGE value="P2 - module8 Exceptions: Introduction" />
+    <MESSAGE value="renamed package" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed package" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

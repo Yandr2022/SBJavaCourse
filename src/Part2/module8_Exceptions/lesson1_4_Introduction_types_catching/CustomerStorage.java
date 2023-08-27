@@ -19,7 +19,7 @@ public class CustomerStorage
             throw new IOException("Wrong format.\nexample: add Василий Петров vasily.petrov@gmail.com +375256800139");
         }
         String name = components[0] + " " + components[1];
-        if (!Pattern.matches("(\\+375)(29|44|17|33|44|25)\\d{7}", components[3])){
+        if (!Pattern.matches("(\\+375)(29|44|17|33|25)\\d{7}", components[3])){
             throw new IOException("Wrong format tel number\nexample:+375297090835");
         }
         if (!Pattern.matches("(\\w+|\\w+\\.\\w+)@\\w+\\.\\w+", components[2])){
