@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3c37d35-8da4-4fd7-b6a6-01333cace7bf" name="Changes" comment="P2 - module8 Exceptions: Stream API">
+      <change afterPath="$PROJECT_DIR$/src/Part2/module9_FilesAndNetworking/lesson2_4_FileInput_BufferedReader_Files/homework/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part2/module8_Exceptions/lesson1_4_Introduction_types_catching/CustomerStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part2/module8_Exceptions/lesson1_4_Introduction_types_catching/CustomerStorage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,20 +72,33 @@
       <recent name="Part1.module2_LanguageSyntax.lesson4_Boolean_ComparisonAndConditionalOperators" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Part2.module9_FilesAndNetworking.lesson2_3_FileInput_BufferedReader" />
       <recent name="org.example" />
       <recent name="Part1.module7_OOP.lesson3_StreamAPI" />
       <recent name="Part1.module6_inheritanceAndPolymorphism.lesson7_11_InterfacesPolymorphismLambdas.homework" />
       <recent name="Part1.module6_inheritanceAndPolymorphism.lesson7_Interfaces.figures.abstraction" />
-      <recent name="Part1.module6_inheritanceAndPolymorphism.lesson4_AbstractClasses.homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Part2.module8_Exceptions.lesson1_4_Introduction_types_catching.Demo">
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="BuffReaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2.module9_FilesAndNetworking.lesson2_4_FileInput_BufferedReader_Files.BuffReaderDemo" />
+      <module name="SBJavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Part2.module9_FilesAndNetworking.lesson2_4_FileInput_BufferedReader_Files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part1.module7_OOP.lesson10_Generics.Demo" />
+      <option name="MAIN_CLASS_NAME" value="Part2.module9_FilesAndNetworking.lesson2_4_FileInput_BufferedReader_Files.homework.Demo" />
       <module name="SBJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part1.module7_OOP.lesson10_Generics.*" />
+          <option name="PATTERN" value="Part2.module9_FilesAndNetworking.lesson2_4_FileInput_BufferedReader_Files.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Part1.module7_OOP.lesson11_Maven.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part1.module7_OOP.lesson11_Maven.Demo" />
+    <configuration name="FilesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2.module9_FilesAndNetworking.lesson2_4_FileInput_BufferedReader_Files.FilesDemo" />
       <module name="SBJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part1.module7_OOP.lesson11_Maven.*" />
+          <option name="PATTERN" value="Part2.module9_FilesAndNetworking.lesson2_4_FileInput_BufferedReader_Files.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Part2.module8_Exceptions.lesson1_4_Introduction_types_catching.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2.module8_Exceptions.lesson1_4_Introduction_types_catching.Demo" />
+    <configuration name="InputStrDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2.module9_FilesAndNetworking.lesson2_4_FileInput_BufferedReader_Files.InputStrDemo" />
       <module name="SBJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2.module8_Exceptions.lesson1_4_Introduction_types_catching.*" />
+          <option name="PATTERN" value="Part2.module9_FilesAndNetworking.lesson2_4_FileInput_BufferedReader_Files.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,25 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part1.module7_OOP.lesson3_8_StreamAPI.homework.Task1" />
+    <configuration name="Part2.module9_FilesAndNetworking.lesson1_ClassFile_Introduction.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2.module9_FilesAndNetworking.lesson1_ClassFile_Introduction.Demo" />
       <module name="SBJavaCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part1.module7_OOP.lesson3_8_StreamAPI.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part1.module7_OOP.lesson3_8_StreamAPI.homework.Task2" />
-      <module name="SBJavaCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Part1.module7_OOP.lesson3_8_StreamAPI.homework.*" />
+          <option name="PATTERN" value="Part2.module9_FilesAndNetworking.lesson1_ClassFile_Introduction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Part2.module8_Exceptions.lesson1_4_Introduction_types_catching.Demo" />
-        <item itemvalue="Application.Part1.module7_OOP.lesson11_Maven.Demo" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.Task2" />
-        <item itemvalue="Application.Task1" />
+        <item itemvalue="Application.Part2.module9_FilesAndNetworking.lesson1_ClassFile_Introduction.Demo" />
+        <item itemvalue="Application.FilesDemo" />
+        <item itemvalue="Application.BuffReaderDemo" />
+        <item itemvalue="Application.InputStrDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -465,12 +465,24 @@
       <option name="project" value="LOCAL" />
       <updated>1692758706643</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="P2 - module8 Exceptions: refactor">
+      <created>1693123904169</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1693123904169</updated>
+    </task>
+    <task id="LOCAL-00045" summary="P2 - module9 Files And Networking: Reading Files">
+      <created>1693719810449</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1693719810449</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="P1 - module3 Object &amp; Class: external libraries" />
-    <MESSAGE value="P1 - module4 Numbers, Strings &amp; Dates: boxing &amp; unboxing" />
     <MESSAGE value="P1 - module4 Numbers, Strings &amp; Dates: boundary values of numeric values of various types" />
     <MESSAGE value="P1 - module4 Numbers, Strings &amp; Dates: operations with numbers, class Math" />
     <MESSAGE value="P1 - module4 Numbers, Strings &amp; Dates: operations with Strings" />
@@ -494,7 +506,9 @@
     <MESSAGE value="P2 - module8 Exceptions: introduction" />
     <MESSAGE value="P2 - module8 Exceptions: Introduction" />
     <MESSAGE value="renamed package" />
-    <option name="LAST_COMMIT_MESSAGE" value="renamed package" />
+    <MESSAGE value="P2 - module8 Exceptions: refactor" />
+    <MESSAGE value="P2 - module9 Files And Networking: Reading Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="P2 - module9 Files And Networking: Reading Files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
