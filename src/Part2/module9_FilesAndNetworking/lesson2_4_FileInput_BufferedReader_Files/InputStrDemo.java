@@ -7,8 +7,7 @@ import java.io.IOException;
 public class InputStrDemo {
     public static void main(String[] args) {
         StringBuilder builder = new StringBuilder();
-        try {
-            FileInputStream inputStream = new FileInputStream("info.txt");
+        try (FileInputStream inputStream = new FileInputStream("info.txt")) {
             for (int code = inputStream.read(); code != -1; code = inputStream.read()) {
                 char ch = (char) code;
                 builder.append(ch);
